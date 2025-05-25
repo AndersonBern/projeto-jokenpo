@@ -109,6 +109,8 @@ function escolha(id) {
 }
 
 function reiniciar() {
+    msg.innerHTML = 'Escolha uma opção:'
+
     resultado.innerHTML = `<section id="escolha">
             <div id="pedra" class="opt" onclick="escolha('pedra')">
                 <img src="imagens/pedra-E.png" alt="">
