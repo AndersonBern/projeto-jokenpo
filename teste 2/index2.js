@@ -44,16 +44,16 @@ function loop() {
 let sorteio = setInterval(loop, 100);
 
 //Criei um contador para a contagem.
-let contador = 1;
+let contador = 0;
 
 //Função contagem regressiva.
 function contagem() {
 
-    mensagem.innerHTML = contador;
+    mensagem.innerHTML = contador + 1;
 
     let resultado = setInterval(() => {
         contador++
-        mensagem.innerHTML = contador;
+        mensagem.innerHTML = contador + 1;
     
 
         if(contador === 3) {
