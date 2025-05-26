@@ -43,6 +43,7 @@ main {
 #jogo {
     text-align: center;
     padding: 10px;
+    display: none;
 }
 
 #resultado {
@@ -60,6 +61,7 @@ button {
     border: 1px solid black;
     border-radius: 5px;
     margin: auto;
+    display: none;
 }
 button:hover {
     background-color: rgb(112, 252, 112);

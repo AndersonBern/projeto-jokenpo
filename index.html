@@ -14,19 +14,31 @@
     </header>
     <main id="jokenpo">
         <section id="escolha">
-            <div id="pedra" class="opt" onclick="escolha('pedra')">
+            <div id="pedra" class="opt" onclick="escolha('0'), contagem()" >
                 <img src="imagens/pedra-E.png" alt="">
             </div>
-            <div id="papel" class="opt" onclick="escolha('papel')">
+            <div id="papel" class="opt" onclick="escolha('1'), contagem()">
                 <img src="imagens/papel-E.png" alt="">
             </div>
-            <div id="tesoura" class="opt" onclick="escolha('tesoura')">
+            <div id="tesoura" class="opt" onclick="escolha('2'), contagem()">
                 <img src="imagens/tesoura-E.png" alt="">
             </div>
+        </section>
+
+        <section id="jogo">
+            <div id="resultado">
+                <div >
+                    <img id="player" src="imagens/papel-E.png" alt="">
+                </div>
+                <div>
+                    <img id="pc" src="imagens/papel-D.png" alt="">
+                </div>
+            </div>
+            <button id="btn" onclick="location.reload(true)">Reiniciar</button>
         </section>
         
     </main>
         
-    <script src="index.js"></script>
+    <script src="teste 2/index2.js"></script>
 </body>
 </html>
